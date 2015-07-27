@@ -11,5 +11,5 @@ The files in \_source are processed using Jekyll to build the \_site
 directory.  Jekyll knows to use \_source to build \_site because of
 the information in \_config.yml.
 
-Changes to the website should be made in \_site so they are not lost
+Changes to the website should be made in \_source so they are not lost
 in future revisions.
