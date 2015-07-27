@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MSMS Alumni Association Website</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="text-center">MSMS Alumni Association</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class=" navbar">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                Private Site <b class="caret"></b></a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="/private/">Log In</a></li>
+                        <li><a href="/newacct.html">Sign Up</a></li>
+                        <li><a href="/forgot-password.html">Forgot Password</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.html">FAQ</a>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+			<ul class="nav nav-pills nav-stacked">
+	<li><a href="http://www.msmsaa.org/docs/bylaws/by-laws.html">By-laws</a></li>
+	<li><a href="http://www.msmsaa.org/newsletter/">Newsletter</a></li>
+	<li><a href="http://www.msmsaa.org/map/">Distribution map</a></li>
+	<li><a href="http://www.msmsaa.org/photos/">Photo album</a></li>
+	<li><a href="http://www.msmsaa.org/memorial/">Memorial</a></li>
+	<li><a href="http://www.msmsaa.org/onthenet.html">Alumni on the Net</a></li>
+	<li><a href="http://www.msmsaa.org/links.html">Similar alumni organizations</a></li>
+	<li><a href="http://www.msmsfoundation.com/">MSMS Foundation 
+	<span class="glyphicon glyphicon-link"></span></a></li>
+</ul>
+
+        </div>
+        <div class="col-sm-9">
+            <p>This is the website of the alumni of the 
+            <a href="http://www.themsms.org">Mississippi School for Mathematics
+            and Science</a> (MSMS).  The MSMS Alumni Association (MSMSAA) was 
+            founded in 1994 to facilitate communication among the alumni by 
+            maintaining a database of up-to-date contact information and 
+            organizing alumni events.  </p>
+            <p>Our interests and activities sometimes overlap with 
+            <a href="http://www.themsms.org">MSMS</a> and 
+            <a href="http://www.msmsfoundation.com/">MSMS Foundation</a>, but
+            we are an independent organization primarily interested in 
+            supporting the alumni.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>    
