@@ -16,7 +16,6 @@ Changes to the website should be made in \_source so they are not lost
 in future revisions.
 
 ##To do
-* Create links.html
 * Create bylaws.html
 * Create newacct.html
 * Create forgot-password.html
