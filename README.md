@@ -5,7 +5,7 @@ These are the files used to create the website of the [Mississippi
 School for Mathematics and Science Alumni Association](http://www.msmsaa.org). 
 The files on the web server are in the \_site directory.  These files
 use [Bootstrap](http://getbootstrap.com/) classes in order 
-to create a more mobile friendly.  
+to create a more mobile friendly user experience.  
 
 The template files in the \_source directory are processed using 
 [Jekyll](http://jekyllrb.com/) to build the \_site 
