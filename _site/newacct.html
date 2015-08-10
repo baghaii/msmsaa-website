@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MSMS Alumni Association Website</title>
+<title>MSMSAA: Sign Up</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -14,20 +14,23 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class=" navbar">
-            <ul class="nav nav-tabs nav-justified">
-                <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+		<div class=" navbar">
+	<ul class="nav nav-tabs nav-justified">
+    	<li class="dropdown">
+        	<a href="#" data-toggle="dropdown" class="dropdown-toggle">
                 Private Site <b class="caret"></b></a>
                     <ul class="dropdown-menu dropdown-menu-right">
                         <li><a href="/private/">Log In</a></li>
                         <li><a href="/newacct.html">Sign Up</a></li>
-                        <li><a href="/forgot-password.html">Forgot Password</a></li>
+                        <li><a href="/forgot-password.html">Forgot Password</a>
+						</li>
                     </ul>
-                </li>
-                <li><a href="faq.html">FAQ</a>
-            </ul>
-        </div>
+         </li>
+         <li><a href="/">Main Page</a></li>
+     </ul>
+</div>
+
+
     </div>
     <div class="row">
         <div class="col-sm-3">
@@ -47,27 +50,43 @@
 
         </div>
         <div class="col-sm-9">
-            <p>This is the website of the alumni of the 
-            <a href="http://www.themsms.org">Mississippi School for Mathematics
-            and Science</a> (MSMS).  The MSMS Alumni Association (MSMSAA) was 
-            founded in 1994 to facilitate communication among the alumni by 
-            maintaining a database of up-to-date contact information and 
-            organizing alumni events.  </p>
-            <p>Our interests and activities sometimes overlap with 
-            <a href="http://www.themsms.org">MSMS</a>,  
-            <a href="http://www.msmsfoundation.com/">MSMS Foundation</a> and
-			<a href="https://www.facebook.com/groups/1486850268243505/">MSMS
-			PLUS</a>, but we are an independent organization primarily 
-			interested in supporting the alumni.
-            </p>
-			<div class="cushycms">
-			</div>
-			<a class="twitter-timeline" 
-				href="https://twitter.com/the_msms" 
-				data-widget-id="630833570509135872"
-				height="300">
-				Tweets by @the_msms</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<p>You can use this form to request an account on the alumni
+			website if you do not already have one.  Please use the 
+			first and last name that you used when you attended MSMS
+			to complete this form.</p>
+			
+			<form method="POST" action="/msmsaa-bin/newacct">
+				<div class="form-group">
+    				<label for="firstName">First name</label>
+    				<input name="firstname" type="text" class="form-control" 
+						id="firstName" placeholder="First Name">
+  				</div>
+				<div class="form-group">
+    				<label for="lastName">Last name</label>
+    				<input name="lastname" type="text" class="form-control" 
+						id="lastName" placeholder="Last Name">
+				</div>
+				<div class="form-group">
+    				<label for="emailAddress">Email address</label>
+    				<input name="email" type="email" class="form-control" 
+						id="emailAddress" placeholder="Email">
+  				</div>
+				<div class="form-group">
+    				<label for="gradYear">Graduation year</label>
+    				<input name="gradyear" type="number" class="form-control" 
+						min="1000" max="3000" value="2000"
+						id="gradYear" placeholder="2000">
+  				</div>
+				<div class="form-group">
+    				<div class="col-sm-offset-9 col-sm-9">
+      					<button type="submit" 
+							value="Submit your request" 
+							class="btn btn-default">
+							Submit
+						</button>
+    				</div>
+  				</div>
+			</form>
         </div>
     </div>
 </div>
