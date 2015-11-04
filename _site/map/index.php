@@ -63,7 +63,7 @@
        for (var i = 0; i < data.length; i++) {
         if (data[i].lat) {
           var latLng = new google.maps.LatLng(data[i].lat,
-              -1*data[i].lon);
+              data[i].lon);
           var marker = new google.maps.Marker({
             position: latLng
           });

@@ -21,7 +21,7 @@ function gendata() {
   /* query strings */
   $query_string1 = "SELECT zip, lat, lon, count(*) FROM ".
     "(SELECT IF(currzip > '0', currzip, permzip) as zip FROM alumni) t1 ".
-    "LEFT JOIN zips_2000 on t1.zip = zips_2000.zipcode GROUP BY zip";
+    "LEFT JOIN zips_2015 on t1.zip = zips_2015.zipcode GROUP BY zip";
 
   $result = query($query_string1, $connection);
 
